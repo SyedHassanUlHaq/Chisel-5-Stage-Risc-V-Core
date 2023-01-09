@@ -1,0 +1,26 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly pipelining.pipelining_Topfile_Test -- -DwriteVcd=1, Some(bc7f5610-3adb-4b9d-beaa-821cb1a8b008), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 58 Scala sources to /home/hassan/Documents/Scala-Chisel-Learning-Journey-main/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hassan/Documents/Scala-Chisel-Learning-Journey-main/src/main/scala/pipelining/PipeliningTopFileTest.scala:4:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hassan/Documents/Scala-Chisel-Learning-Journey-main/src/main/scala/pipelining/PipeliningTopFileTest.scala:5:8: not found: object chiseltest[0m
+[0m[[0m[31merror[0m] [0m[0mimport chiseltest._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hassan/Documents/Scala-Chisel-Learning-Journey-main/src/main/scala/pipelining/PipeliningTopFileTest.scala:7:39: not found: type FreeSpec[0m
+[0m[[0m[31merror[0m] [0m[0mclass pipelining_Topfile_Test extends FreeSpec with ChiselScalatestTester{[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hassan/Documents/Scala-Chisel-Learning-Journey-main/src/main/scala/pipelining/PipeliningTopFileTest.scala:7:53: not found: type ChiselScalatestTester[0m
+[0m[[0m[31merror[0m] [0m[0mclass pipelining_Topfile_Test extends FreeSpec with ChiselScalatestTester{[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hassan/Documents/Scala-Chisel-Learning-Journey-main/src/main/scala/pipelining/PipeliningTopFileTest.scala:8:21: value in is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m    "Top File Test" in {[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hassan/Documents/Scala-Chisel-Learning-Journey-main/src/main/scala/pipelining/PipeliningTopFileTest.scala:9:9: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m        test(new pipelining_top){[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 15 s, completed Jan 10, 2023, 12:26:44 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
